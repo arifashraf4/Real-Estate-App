@@ -1,0 +1,662 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		423EF5D227995519007CFB84 /* LoginViewUnitTesting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423EF5D127995519007CFB84 /* LoginViewUnitTesting.swift */; };
+		424E6CEF27BF86A1008E33E6 /* SignUpUnitTesting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 424E6CEE27BF86A1008E33E6 /* SignUpUnitTesting.swift */; };
+		424E6CF127BF8EAC008E33E6 /* DealDetailsUnitTesting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 424E6CF027BF8EAC008E33E6 /* DealDetailsUnitTesting.swift */; };
+		42660A4F27A2865400D460A5 /* DealDetailsView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42660A4E27A2865400D460A5 /* DealDetailsView2.swift */; };
+		42660A5127A291D300D460A5 /* DealDetailsView3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42660A5027A291D300D460A5 /* DealDetailsView3.swift */; };
+		42660A5327A29A4000D460A5 /* DealDetailsView4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42660A5227A29A4000D460A5 /* DealDetailsView4.swift */; };
+		428D17B127AB9FDE00529D73 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428D17B027AB9FDE00529D73 /* MapView.swift */; };
+		42E76BC127830C7600701810 /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42E76BC027830C7600701810 /* ImageView.swift */; };
+		4D478F222767D5610026CBED /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D478F212767D5610026CBED /* SignUpView.swift */; };
+		4D478F262767EA220026CBED /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D478F252767EA210026CBED /* TabBarView.swift */; };
+		4D5D102B277F20940090BE0B /* LoggedInUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D5D102A277F20940090BE0B /* LoggedInUser.swift */; };
+		4D71000527608D7900A08F36 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D71000427608D7900A08F36 /* LoginView.swift */; };
+		4D71FFF027608B8C00A08F36 /* Real_Estate_App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D71FFEF27608B8C00A08F36 /* Real_Estate_App.swift */; };
+		4D71FFF427608B8D00A08F36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D71FFF327608B8D00A08F36 /* Assets.xcassets */; };
+		4D71FFF727608B8D00A08F36 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D71FFF627608B8D00A08F36 /* Preview Assets.xcassets */; };
+		4D7D922A276713E900444CBE /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7D9229276713E900444CBE /* Constants.swift */; };
+		4D80C915279FCAB4003A29DF /* SignUpView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D80C914279FCAB4003A29DF /* SignUpView2.swift */; };
+		4D905EFA278C2FDD00E50065 /* ExistingDealDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D905EF9278C2FDD00E50065 /* ExistingDealDetailsView.swift */; };
+		4D905F04278C400E00E50065 /* ExistingDealDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D905F03278C400E00E50065 /* ExistingDealDetailsViewModel.swift */; };
+		4DB60E2227ABB3A300114CC9 /* MapContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB60E2127ABB3A300114CC9 /* MapContentViewModel.swift */; };
+		4DB60E2427ABB5FC00114CC9 /* MapContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB60E2327ABB5FC00114CC9 /* MapContentView.swift */; };
+		4DB6F984276B479E009A0B79 /* CustomEntryFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB6F983276B479E009A0B79 /* CustomEntryFieldView.swift */; };
+		4DBEE31B27748D4B00FB6338 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBEE31A27748D4B00FB6338 /* CoreDataManager.swift */; };
+		4DBEE3202775364500FB6338 /* Real Estate App.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4DBEE31E2775364500FB6338 /* Real Estate App.xcdatamodeld */; };
+		4DC2E6282786FAE800E65B1C /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC2E6272786FAE800E65B1C /* HomeView.swift */; };
+		4DC2E62A2787048100E65B1C /* TabBarViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC2E6292787048100E65B1C /* TabBarViewModel.swift */; };
+		4DC97D1227AA6BC40082C263 /* User+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC97D0E27AA6BC40082C263 /* User+CoreDataClass.swift */; };
+		4DC97D1327AA6BC40082C263 /* User+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC97D0F27AA6BC40082C263 /* User+CoreDataProperties.swift */; };
+		4DC97D1427AA6BC40082C263 /* Deal+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC97D1027AA6BC40082C263 /* Deal+CoreDataClass.swift */; };
+		4DC97D1527AA6BC40082C263 /* Deal+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC97D1127AA6BC40082C263 /* Deal+CoreDataProperties.swift */; };
+		4DCD7C17277B24D600A1B73B /* DealDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DCD7C16277B24D600A1B73B /* DealDetailsView.swift */; };
+		4DCD7C19277B252300A1B73B /* DealDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DCD7C18277B252300A1B73B /* DealDetailsViewModel.swift */; };
+		4DD3CEB4276A1321000F8CC0 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD3CEB3276A1321000F8CC0 /* WelcomeView.swift */; };
+		4DD3CEB6276A9B5A000F8CC0 /* SignUpViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD3CEB5276A9B5A000F8CC0 /* SignUpViewModel.swift */; };
+		4DD542042762075B004C8414 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD542032762075B004C8414 /* LoginViewModel.swift */; };
+		4DFBFAC2277C4F2B006BE737 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DFBFAC1277C4F2B006BE737 /* HomeViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		423EF5D327995519007CFB84 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D71FFE427608B8C00A08F36 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D71FFEB27608B8C00A08F36;
+			remoteInfo = "Real Estate App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		423EF5CF27995519007CFB84 /* Real Estate AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Real Estate AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		423EF5D127995519007CFB84 /* LoginViewUnitTesting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewUnitTesting.swift; sourceTree = "<group>"; };
+		424E6CEE27BF86A1008E33E6 /* SignUpUnitTesting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpUnitTesting.swift; sourceTree = "<group>"; };
+		424E6CF027BF8EAC008E33E6 /* DealDetailsUnitTesting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DealDetailsUnitTesting.swift; sourceTree = "<group>"; };
+		42660A4E27A2865400D460A5 /* DealDetailsView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DealDetailsView2.swift; sourceTree = "<group>"; };
+		42660A5027A291D300D460A5 /* DealDetailsView3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DealDetailsView3.swift; sourceTree = "<group>"; };
+		42660A5227A29A4000D460A5 /* DealDetailsView4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DealDetailsView4.swift; sourceTree = "<group>"; };
+		428D17B027AB9FDE00529D73 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		42E76BC027830C7600701810 /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = SOURCE_ROOT; };
+		4D478F212767D5610026CBED /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		4D478F252767EA210026CBED /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
+		4D5D102A277F20940090BE0B /* LoggedInUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoggedInUser.swift; sourceTree = "<group>"; };
+		4D71000427608D7900A08F36 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		4D71FFEC27608B8C00A08F36 /* Real Estate App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Real Estate App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D71FFEF27608B8C00A08F36 /* Real_Estate_App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Real_Estate_App.swift; sourceTree = "<group>"; };
+		4D71FFF327608B8D00A08F36 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4D71FFF627608B8D00A08F36 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4D7D9229276713E900444CBE /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		4D80C914279FCAB4003A29DF /* SignUpView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView2.swift; sourceTree = "<group>"; };
+		4D905EF9278C2FDD00E50065 /* ExistingDealDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExistingDealDetailsView.swift; sourceTree = "<group>"; };
+		4D905F03278C400E00E50065 /* ExistingDealDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExistingDealDetailsViewModel.swift; sourceTree = "<group>"; };
+		4DB60E2127ABB3A300114CC9 /* MapContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapContentViewModel.swift; sourceTree = "<group>"; };
+		4DB60E2327ABB5FC00114CC9 /* MapContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapContentView.swift; sourceTree = "<group>"; };
+		4DB6F983276B479E009A0B79 /* CustomEntryFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomEntryFieldView.swift; sourceTree = "<group>"; };
+		4DBEE31A27748D4B00FB6338 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		4DBEE31F2775364500FB6338 /* Real Estate App.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "Real Estate App.xcdatamodel"; sourceTree = "<group>"; };
+		4DC2E6272786FAE800E65B1C /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		4DC2E6292787048100E65B1C /* TabBarViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewModel.swift; sourceTree = "<group>"; };
+		4DC97D0E27AA6BC40082C263 /* User+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		4DC97D0F27AA6BC40082C263 /* User+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		4DC97D1027AA6BC40082C263 /* Deal+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Deal+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		4DC97D1127AA6BC40082C263 /* Deal+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Deal+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		4DCD7C16277B24D600A1B73B /* DealDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DealDetailsView.swift; sourceTree = "<group>"; };
+		4DCD7C18277B252300A1B73B /* DealDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DealDetailsViewModel.swift; sourceTree = "<group>"; };
+		4DD3CEB3276A1321000F8CC0 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		4DD3CEB5276A9B5A000F8CC0 /* SignUpViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewModel.swift; sourceTree = "<group>"; };
+		4DD542032762075B004C8414 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		4DFBFAC1277C4F2B006BE737 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		423EF5CC27995519007CFB84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D71FFE927608B8C00A08F36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		423EF5D027995519007CFB84 /* Real Estate App Tests */ = {
+			isa = PBXGroup;
+			children = (
+				423EF5D127995519007CFB84 /* LoginViewUnitTesting.swift */,
+				424E6CEE27BF86A1008E33E6 /* SignUpUnitTesting.swift */,
+				424E6CF027BF8EAC008E33E6 /* DealDetailsUnitTesting.swift */,
+			);
+			path = "Real Estate App Tests";
+			sourceTree = "<group>";
+		};
+		4D71FFE327608B8C00A08F36 = {
+			isa = PBXGroup;
+			children = (
+				4D71FFEE27608B8C00A08F36 /* Real Estate App */,
+				4D71FFED27608B8C00A08F36 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4D71FFED27608B8C00A08F36 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4D71FFEC27608B8C00A08F36 /* Real Estate App.app */,
+				423EF5CF27995519007CFB84 /* Real Estate AppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4D71FFEE27608B8C00A08F36 /* Real Estate App */ = {
+			isa = PBXGroup;
+			children = (
+				4DC97D0E27AA6BC40082C263 /* User+CoreDataClass.swift */,
+				4DC97D0F27AA6BC40082C263 /* User+CoreDataProperties.swift */,
+				4DC97D1027AA6BC40082C263 /* Deal+CoreDataClass.swift */,
+				4DC97D1127AA6BC40082C263 /* Deal+CoreDataProperties.swift */,
+				4DBEE31927748D3400FB6338 /* CoreDataManager */,
+				4D7D9228276713CE00444CBE /* Helpers */,
+				4DD541FE2761EC4B004C8414 /* Models */,
+				4DD542002761EC5D004C8414 /* Views */,
+				4DD541FF2761EC52004C8414 /* ViewModel */,
+				423EF5D027995519007CFB84 /* Real Estate App Tests */,
+				4D71FFEF27608B8C00A08F36 /* Real_Estate_App.swift */,
+				4DBEE31E2775364500FB6338 /* Real Estate App.xcdatamodeld */,
+				4D71FFF327608B8D00A08F36 /* Assets.xcassets */,
+				4D71FFF527608B8D00A08F36 /* Preview Content */,
+			);
+			path = "Real Estate App";
+			sourceTree = "<group>";
+		};
+		4D71FFF527608B8D00A08F36 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4D71FFF627608B8D00A08F36 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4D7D9228276713CE00444CBE /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				4D7D9229276713E900444CBE /* Constants.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		4DBEE31927748D3400FB6338 /* CoreDataManager */ = {
+			isa = PBXGroup;
+			children = (
+				4DBEE31A27748D4B00FB6338 /* CoreDataManager.swift */,
+			);
+			path = CoreDataManager;
+			sourceTree = "<group>";
+		};
+		4DD541FE2761EC4B004C8414 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4D5D102A277F20940090BE0B /* LoggedInUser.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4DD541FF2761EC52004C8414 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				4DD542032762075B004C8414 /* LoginViewModel.swift */,
+				4DD3CEB5276A9B5A000F8CC0 /* SignUpViewModel.swift */,
+				4DC2E6292787048100E65B1C /* TabBarViewModel.swift */,
+				4DFBFAC1277C4F2B006BE737 /* HomeViewModel.swift */,
+				4DCD7C18277B252300A1B73B /* DealDetailsViewModel.swift */,
+				4D905F03278C400E00E50065 /* ExistingDealDetailsViewModel.swift */,
+				4DB60E2127ABB3A300114CC9 /* MapContentViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		4DD542002761EC5D004C8414 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4D71000427608D7900A08F36 /* LoginView.swift */,
+				4D478F212767D5610026CBED /* SignUpView.swift */,
+				4D80C914279FCAB4003A29DF /* SignUpView2.swift */,
+				4DD3CEB3276A1321000F8CC0 /* WelcomeView.swift */,
+				4D478F252767EA210026CBED /* TabBarView.swift */,
+				4DC2E6272786FAE800E65B1C /* HomeView.swift */,
+				4DCD7C16277B24D600A1B73B /* DealDetailsView.swift */,
+				42660A4E27A2865400D460A5 /* DealDetailsView2.swift */,
+				42660A5027A291D300D460A5 /* DealDetailsView3.swift */,
+				42660A5227A29A4000D460A5 /* DealDetailsView4.swift */,
+				4D905EF9278C2FDD00E50065 /* ExistingDealDetailsView.swift */,
+				4DB60E2327ABB5FC00114CC9 /* MapContentView.swift */,
+				428D17B027AB9FDE00529D73 /* MapView.swift */,
+				42E76BC027830C7600701810 /* ImageView.swift */,
+				4DB6F983276B479E009A0B79 /* CustomEntryFieldView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		423EF5CE27995519007CFB84 /* Real Estate AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 423EF5D527995519007CFB84 /* Build configuration list for PBXNativeTarget "Real Estate AppTests" */;
+			buildPhases = (
+				423EF5CB27995519007CFB84 /* Sources */,
+				423EF5CC27995519007CFB84 /* Frameworks */,
+				423EF5CD27995519007CFB84 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				423EF5D427995519007CFB84 /* PBXTargetDependency */,
+			);
+			name = "Real Estate AppTests";
+			productName = "Real Estate AppTests";
+			productReference = 423EF5CF27995519007CFB84 /* Real Estate AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4D71FFEB27608B8C00A08F36 /* Real Estate App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D71FFFF27608B8D00A08F36 /* Build configuration list for PBXNativeTarget "Real Estate App" */;
+			buildPhases = (
+				4D71FFE827608B8C00A08F36 /* Sources */,
+				4D71FFE927608B8C00A08F36 /* Frameworks */,
+				4D71FFEA27608B8C00A08F36 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Real Estate App";
+			productName = "Real Estate App";
+			productReference = 4D71FFEC27608B8C00A08F36 /* Real Estate App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4D71FFE427608B8C00A08F36 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					423EF5CE27995519007CFB84 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 4D71FFEB27608B8C00A08F36;
+					};
+					4D71FFEB27608B8C00A08F36 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = 4D71FFE727608B8C00A08F36 /* Build configuration list for PBXProject "Real Estate App" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4D71FFE327608B8C00A08F36;
+			productRefGroup = 4D71FFED27608B8C00A08F36 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4D71FFEB27608B8C00A08F36 /* Real Estate App */,
+				423EF5CE27995519007CFB84 /* Real Estate AppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		423EF5CD27995519007CFB84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D71FFEA27608B8C00A08F36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D71FFF727608B8D00A08F36 /* Preview Assets.xcassets in Resources */,
+				4D71FFF427608B8D00A08F36 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		423EF5CB27995519007CFB84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				424E6CF127BF8EAC008E33E6 /* DealDetailsUnitTesting.swift in Sources */,
+				424E6CEF27BF86A1008E33E6 /* SignUpUnitTesting.swift in Sources */,
+				423EF5D227995519007CFB84 /* LoginViewUnitTesting.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D71FFE827608B8C00A08F36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DFBFAC2277C4F2B006BE737 /* HomeViewModel.swift in Sources */,
+				4D905EFA278C2FDD00E50065 /* ExistingDealDetailsView.swift in Sources */,
+				4DB6F984276B479E009A0B79 /* CustomEntryFieldView.swift in Sources */,
+				4DBEE31B27748D4B00FB6338 /* CoreDataManager.swift in Sources */,
+				4DC97D1227AA6BC40082C263 /* User+CoreDataClass.swift in Sources */,
+				4D905F04278C400E00E50065 /* ExistingDealDetailsViewModel.swift in Sources */,
+				42E76BC127830C7600701810 /* ImageView.swift in Sources */,
+				4D71000527608D7900A08F36 /* LoginView.swift in Sources */,
+				4D5D102B277F20940090BE0B /* LoggedInUser.swift in Sources */,
+				428D17B127AB9FDE00529D73 /* MapView.swift in Sources */,
+				4DC97D1327AA6BC40082C263 /* User+CoreDataProperties.swift in Sources */,
+				4D478F262767EA220026CBED /* TabBarView.swift in Sources */,
+				42660A4F27A2865400D460A5 /* DealDetailsView2.swift in Sources */,
+				42660A5127A291D300D460A5 /* DealDetailsView3.swift in Sources */,
+				4DC97D1427AA6BC40082C263 /* Deal+CoreDataClass.swift in Sources */,
+				4DCD7C19277B252300A1B73B /* DealDetailsViewModel.swift in Sources */,
+				4DCD7C17277B24D600A1B73B /* DealDetailsView.swift in Sources */,
+				4DB60E2427ABB5FC00114CC9 /* MapContentView.swift in Sources */,
+				4DD3CEB6276A9B5A000F8CC0 /* SignUpViewModel.swift in Sources */,
+				4D71FFF027608B8C00A08F36 /* Real_Estate_App.swift in Sources */,
+				42660A5327A29A4000D460A5 /* DealDetailsView4.swift in Sources */,
+				4DD542042762075B004C8414 /* LoginViewModel.swift in Sources */,
+				4D478F222767D5610026CBED /* SignUpView.swift in Sources */,
+				4DB60E2227ABB3A300114CC9 /* MapContentViewModel.swift in Sources */,
+				4D80C915279FCAB4003A29DF /* SignUpView2.swift in Sources */,
+				4DC97D1527AA6BC40082C263 /* Deal+CoreDataProperties.swift in Sources */,
+				4DC2E62A2787048100E65B1C /* TabBarViewModel.swift in Sources */,
+				4D7D922A276713E900444CBE /* Constants.swift in Sources */,
+				4DD3CEB4276A1321000F8CC0 /* WelcomeView.swift in Sources */,
+				4DBEE3202775364500FB6338 /* Real Estate App.xcdatamodeld in Sources */,
+				4DC2E6282786FAE800E65B1C /* HomeView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		423EF5D427995519007CFB84 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4D71FFEB27608B8C00A08F36 /* Real Estate App */;
+			targetProxy = 423EF5D327995519007CFB84 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		423EF5D627995519007CFB84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com..Real-Estate-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Real Estate App.app/Real Estate App";
+			};
+			name = Debug;
+		};
+		423EF5D727995519007CFB84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com..Real-Estate-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Real Estate App.app/Real Estate App";
+			};
+			name = Release;
+		};
+		4D71000027608B8D00A08F36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Real Estate App/Preview Content\"";
+				DEVELOPMENT_TEAM = AMJ3KHQ4M5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Real-Estate-App-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yash.learningapp1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4D71000127608B8D00A08F36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Real Estate App/Preview Content\"";
+				DEVELOPMENT_TEAM = AMJ3KHQ4M5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Real-Estate-App-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yash.learningapp1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4D71FFFD27608B8D00A08F36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4D71FFFE27608B8D00A08F36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		423EF5D527995519007CFB84 /* Build configuration list for PBXNativeTarget "Real Estate AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				423EF5D627995519007CFB84 /* Debug */,
+				423EF5D727995519007CFB84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D71FFE727608B8C00A08F36 /* Build configuration list for PBXProject "Real Estate App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D71FFFD27608B8D00A08F36 /* Debug */,
+				4D71FFFE27608B8D00A08F36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D71FFFF27608B8D00A08F36 /* Build configuration list for PBXNativeTarget "Real Estate App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D71000027608B8D00A08F36 /* Debug */,
+				4D71000127608B8D00A08F36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4DBEE31E2775364500FB6338 /* Real Estate App.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4DBEE31F2775364500FB6338 /* Real Estate App.xcdatamodel */,
+			);
+			currentVersion = 4DBEE31F2775364500FB6338 /* Real Estate App.xcdatamodel */;
+			path = "Real Estate App.xcdatamodeld";
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 4D71FFE427608B8C00A08F36 /* Project object */;
+}
